@@ -1,0 +1,98 @@
+/* fonts */
+@font-face {
+  font-family: Outfit;
+  src: url(fonts/Outfit_Regular.ttf);
+}
+@media screen and (min-width:375px){
+
+body{
+  background-color:#F2F2F2;
+}
+.content-wrapper{
+  margin: 0 auto;
+  background-color: #15263F;
+  padding: 24px;
+  width:320px;
+  border-radius: 10px;
+}
+
+.texts{
+  margin: 10px 0px;
+}
+.title, .slogan, .nft-price, .nft-time, .author-name{
+  font-family: Outfit;
+  font-style:normal;
+}
+.title{
+  font-weight:600;
+  font-size:22px;
+  line-height:28px;
+  color:white;
+}
+.slogan{
+  font-weight:300;
+  font-size:18px;
+  line-height:26px;
+  color: #8BACD9;
+}
+.nft-price{
+  font-weight:600;
+  font-size:15px;
+  line-height:19px;
+  color: #00FFF8;
+}
+.nft-time{
+  font-weight:400;
+  font-size:18px;
+  line-height:26px;
+  color: #8BACD9;
+}
+.author-name{
+  font-weight:400;
+  font-size:15px;
+  line-height:19px;
+  color: white;
+}
+span{
+  font-weight:400;
+  font-size:15px;
+  line-height:19px;
+  color: #8BACD9;
+  margin-right: 8x;
+}
+.crypto-info{
+  display: flex;
+  justify-content: space-between;
+}
+.crypto-currency, .expiration, .credits{
+  display: flex;
+  align-items:center;
+}
+.crypto-icon, .clock-icon{
+  margin-right: 5px;
+}
+.crypto-icon{
+  width:11px;
+  height:18px;
+}
+.clock-icon{
+  width:13px;
+  height:13px;
+}
+.author-img{
+  margin-right: 10px;
+  width:33px;
+  height:33px;
+}
+.hello-img{
+  max-width: 100%;
+  border-radius: 8px;
+}
+hr{
+  background: #2E405A;
+  border: none;
+  height:2px;
+
+}
+
+}
