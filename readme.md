@@ -29,7 +29,7 @@
 
 ### What I learned
 
--revised basic structure of html and basic styles.
+- revised basic structure of html and basic styles.
 
 
 ## Author
